@@ -1,0 +1,261 @@
+/*Start Upper Bar*/
+.upper-bar {
+  background-color: #08526d;
+  color: #fff;
+  padding: 12px;
+}
+/*End Upper Bar*/
+
+/*Start NavBar*/
+
+.navbar {
+  background-color: 	#d11b1b !important;
+}
+.navbar-brand span {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+.navbar-nav .nav-link {
+  color: white;
+  font-size: 22px;
+  margin-left: 20px;
+  font-weight: 450;
+  //text-transform: uppercase;
+}
+.navbar-nav .nav-link li a:hover {
+  color: black;
+}
+/*End NavBar*/
+body {
+  margin: 0px;
+}
+/*Start carousel*/
+.carousel-indicators li {
+  height: 8px;
+  background-color: #ea4643;
+}
+
+/*End carousel*/
+
+/*start middle seaction 1*/
+.middle h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #d11b1b;
+  margin-top: 24px;
+  font-family: sofia;
+}
+.middle h2 {
+  color: red;
+}
+.middle p {
+  font-size: 20px;
+  font-family: Roboto;
+}
+.middle i {
+  font-size: 50px;
+  color: red;
+}
+/*end middle seaction */
+
+/*start middle seaction 2*/
+
+/*end middle seaction 2*/
+.div1 {
+  width: 280px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  //animation-direction: alternate;
+}
+
+@keyframes example {
+  0% {
+    
+    left: 0px;
+    top: 0px;
+  }
+ // 50% {
+    
+    left: 110%;
+    top: 0px;
+  }
+  //100% {
+    
+    left:100%;
+    top: 0px;
+  }
+}
+
+.div2 {
+  width: 280px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  //animation-direction: alternate;
+}
+
+@keyframes example {
+  0% {
+    
+    left: 0px;
+    top: 0px;
+  }
+ // 50% {
+    
+    left: 110%;
+    top: 0px;
+  }
+  100% {
+    
+    left:100%;
+    top: 0px;
+  }
+}
+
+/*hovr*/
+
+.hhh{
+  font-family: sofia;
+  font-size: 47px;
+  color: #d11b1b;
+
+}
+.hhhh{
+  font-family: galada;
+  font-size: 47px;
+  color: #d11b1b;
+text-align: center;
+//margin-top: 20px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #d11b1b;
+  border-color:#d11b1b;
+}
+ 
+.footer-h{
+  font-weight: 700 !important;
+    border: 1px solid;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    color: white;
+    background-color:#d11b1b;
+}
+.footer-a{
+    border-bottom: 1px solid red;
+    padding-bottom: 6px;
+    color: black;
+}
+
+/*colok*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.base {
+  width: 190px;
+  border-top: 5px solid gray;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  padding: 0 0 30px;
+}
+
+.holder {
+  width: 30px;
+  height: 20px;
+  background: black;
+  margin: auto;
+  border-radius: 0 0 50% 50%;
+}
+
+.thread {
+  display: inline-block;
+  width: 2px;
+  height: 200px;
+  background: black;
+  border-radius: 5px;
+  position: relative;
+  transform-origin: 50% 0;
+  animation: moveIt 2.5s ease-in-out infinite;
+}
+
+.thread:after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: red;
+  border: 2px solid white;
+  top: -4.5px;
+  left: -3.5px;
+}
+
+.knob {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -18px;
+  left: -4.5px;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 50%;
+  border-bottom: 2px solid transparent;
+}
+
+.pendulum {
+   width: 160px;
+  background: -moz-radial-gradient(circle at 70% 35%, white,#d11b1b 30%,#d11b1b 50%);
+  background: -webkit-radial-gradient(circle at 70% 35%, white, #d11b1b 30%, #d11b1b 50%);
+  background: -o-radial-gradient(circle at 70% 35%, white, #d11b1b 30%, #d11b1b 50%);
+  background: -ms-radial-gradient(circle at 70% 35%, white,#d11b1b 30%, #d11b1b 50%);
+  background: radial-gradient(circle at 70% 35%, white, #d11b1b 30%, #d11b1b 50%);
+    border-radius: 10%;
+    position: absolute;
+    bottom: -37px;
+    left: -77px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.shadow {
+  width: 30px;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  margin: 50px auto 0;
+  animation: moveShade 1.25s ease-in-out alternate infinite;
+}
+
+@keyframes moveIt {
+  0%, 100% {
+    transform: rotate(45deg);
+  }
+  50% {
+    transform: rotate(-45deg);
+  }
+}
+
+@keyframes moveShade {
+  0% {
+    transform: translateX(-220px) scale(1.4, .5);
+    filter: blur(20px);
+  }
+  50% {
+    filter: blur(3px);
+  }
+  100% {
+    transform: translateX(220px) scale(1.4, .5);
+    filter: blur(20px);
+  }
+}
